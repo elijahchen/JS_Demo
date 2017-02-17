@@ -1,10 +1,13 @@
+var str = "Twinkle twinkle little star.";
+
 function singSong(){
-	console.log("Twinkle twinkle little star.")
+	console.log(str)
 	nextPart();
 }
 
 function nextPart(){
-	console.log("How I wonder who you are?")
+	var str2 = "How I wonder who you are?";
+	console.log(str2)
 }
 
 setInterval(function){
