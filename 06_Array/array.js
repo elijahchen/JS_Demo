@@ -47,3 +47,13 @@ var citrus = fruits.slice(1, 3);
 var nums = [1, 2, 3];
 var otherNums = nums.slice();
 //Both arrays are [1, 2, 3]
+
+
+
+//Javascript provides an easy built-in way of iterating over an arary: ForEach
+//Lives in the Array Prototype, is an alternative to the standard For/While Loop
+var arr = ["1", "2", "3"];
+colors.ForEach(function(color){
+	// Color is a placeholder, call it whatever you wantt. Anonymous function.
+	console.log(color);
+});
