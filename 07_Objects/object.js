@@ -52,3 +52,17 @@ ver person = new Object();
 person.name = "Travis";
 person.age = 21;
 person.city = "LA";
+
+//========================================
+
+var someObject = {
+	friends: [
+		{name: "Malfoy"},
+		{name: "Crabbe"},
+		{name: "Goyle"}
+	],
+	color: "Blue",
+	isEvil: true
+};
+
+someObject.friends[0].name;
