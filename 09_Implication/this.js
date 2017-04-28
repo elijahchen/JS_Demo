@@ -57,3 +57,12 @@ girlCalculate();
 var girlCalculate1 = boy.addNumbers.bind(girl,1,2); // bind, we do not need to know all the arguments upfront
 girlCalculate(3,4);
 
+var man = {
+    firstName: "Arty",
+    sayHi: function () {
+        setTimeout(function () {
+            console.log("Hi " + this.firstName)
+        }.bind(this),1000)
+    }
+};
+
